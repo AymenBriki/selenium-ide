@@ -1,0 +1,76 @@
+{
+  "id": "99375989-3cde-4dbd-a74e-7e4478884b7f",
+  "version": "3.0",
+  "name": "New Project",
+  "url": "https://petstore.octoperf.com/actions/Catalog.action",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "97eefec2-54f3-4d2a-80e7-e5735c16ef99",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "66ac42fe-7194-424a-b876-1e39b450429f",
+      "name": "test 2",
+      "commands": [
+        {
+          "id": "f9a2d866-bd3c-45a3-8be3-1361e8d11932",
+          "command": "open",
+          "target": "https://petstore.octoperf.com/actions/Catalog.action",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "linkText=Sign Out",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "7e10f05b-9ae5-4279-a727-5f2936e19212",
+          "targets": [
+            [
+              "linkText=Sign Out",
+              "linkText"
+            ],
+            [
+              "css=#MenuContent > a:nth-child(3)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Sign Out')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='MenuContent']/a[2])[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '/actions/Account.action?signoff=')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Sign Out')]",
+              "xpath:innerText"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
