@@ -1,0 +1,273 @@
+{
+  "id": "99375989-3cde-4dbd-a74e-7e4478884b7f",
+  "version": "3.0",
+  "name": "New Project",
+  "url": "https://petstore.octoperf.com/actions/Catalog.action",
+  "urls": [
+    "http://www.google.com"
+  ],
+  "plugins": [],
+  "suites": [
+    {
+      "id": "97eefec2-54f3-4d2a-80e7-e5735c16ef99",
+      "name": "New Suite",
+      "parallel": false,
+      "persistSession": false,
+      "tests": [],
+      "timeout": 30000
+    }
+  ],
+  "tests": [
+    {
+      "id": "66ac42fe-7194-424a-b876-1e39b450429f",
+      "name": "test 2",
+      "commands": [
+        {
+          "id": "f9a2d866-bd3c-45a3-8be3-1361e8d11932",
+          "command": "open",
+          "target": "https://petstore.octoperf.com/actions/Catalog.action",
+          "value": ""
+        },
+        {
+          "command": "click",
+          "target": "linkText=Sign In",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "4d7b7254-25d2-431a-9925-e833d99dfdc3",
+          "targets": [
+            [
+              "linkText=Sign In",
+              "linkText"
+            ],
+            [
+              "css=#MenuContent > a:nth-child(3)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//a[contains(text(),'Sign In')])[1]",
+              "xpath:link"
+            ],
+            [
+              "xpath=(//div[@id='MenuContent']/a[2])[1]",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=(//a[contains(@href, '/actions/Account.action?signonForm=')])[1]",
+              "xpath:href"
+            ],
+            [
+              "xpath=//a[contains(.,'Sign In')]",
+              "xpath:innerText"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "id=stripes--533712163",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "710d4962-3518-4e8c-8c32-b5e6df16796c",
+          "targets": [
+            [
+              "id=stripes--533712163",
+              "id"
+            ],
+            [
+              "name=username",
+              "name"
+            ],
+            [
+              "css=#stripes--533712163",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='stripes--533712163'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='Catalog']/form/p[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "id=stripes--533712163",
+          "value": "prenom.nom",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "44d1742d-6562-44c8-8170-40355b74b4f0",
+          "targets": [
+            [
+              "id=stripes--533712163",
+              "id"
+            ],
+            [
+              "name=username",
+              "name"
+            ],
+            [
+              "css=#stripes--533712163",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@id='stripes--533712163'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='Catalog']/form/p[2]/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=password",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "4877d2ba-2ce0-4880-b338-217a2f9c1b5c",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=input:nth-child(4)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='Catalog']/form/p[2]/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=password",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6ba1a54b-c36c-454a-8749-efe2b5483cb2",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=input:nth-child(4)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='Catalog']/form/p[2]/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "doubleClick",
+          "target": "name=password",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "6a958b52-86aa-4031-9501-a5933aee4354",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=input:nth-child(4)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='Catalog']/form/p[2]/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "type",
+          "target": "name=password",
+          "value": "12345678",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "e2de12f0-71e7-49de-94ae-c69628f7082c",
+          "targets": [
+            [
+              "name=password",
+              "name"
+            ],
+            [
+              "css=input:nth-child(4)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='password'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='Catalog']/form/p[2]/input[2])[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        },
+        {
+          "command": "click",
+          "target": "name=signon",
+          "value": "",
+          "insertBeforeLastCommand": false,
+          "frameLocation": "root",
+          "winHandleId": "root",
+          "id": "2d318504-cd45-4db6-80c7-a4369a777fa1",
+          "targets": [
+            [
+              "name=signon",
+              "name"
+            ],
+            [
+              "css=input:nth-child(3)",
+              "css:finder"
+            ],
+            [
+              "xpath=(//input[@name='signon'])[1]",
+              "xpath:attributes"
+            ],
+            [
+              "xpath=(//div[@id='Catalog']/form/input)[1]",
+              "xpath:idRelative"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "snapshot": {
+    "dependencies": {},
+    "tests": [],
+    "jest": {
+      "extraGlobals": []
+    }
+  }
+}
